@@ -2,6 +2,14 @@ import './style.css'
 import typescriptLogo from './typescript.svg'
 import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.ts'
+import './ejercicios/01-variables.ts'
+import './ejercicios/02-template-string.ts'
+import './ejercicios/03-object-literal.ts'
+import './ejercicios/04-arrays.ts'
+import './ejercicios/05-functions.ts'
+import './ejercicios/06-obj-destructuring.ts'
+import './ejercicios/07-array-destructuring.ts'
+
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
