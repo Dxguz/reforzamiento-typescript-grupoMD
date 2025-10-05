@@ -4,6 +4,7 @@
 //Desestructurar nombre y carrera.
 //Mostrar valores en consola.
 
+// Reutilizar el objeto estudiante
 const Student = {
   StudentName: "María",
   StudentAge: 22,
@@ -11,7 +12,9 @@ const Student = {
   Semester: 9
 };
 
+// Desestructuración de nombre y carrera
 const { StudentName, Career } = Student;
 
-console.log("Nombre extraido:", StudentName);
-console.log("Carrera extraida:", Career);
+// Mostrar valores en consola
+console.log("Nombre:", StudentName);
+console.log("Carrera:", Career);
